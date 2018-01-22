@@ -1,7 +1,7 @@
 {
   "name": "Wiki.js",
   "description": "An open source, modern and powerful wiki app built on Node.js, Git and Markdown.",
-  "repository": "https://github.com/requarks/wiki-heroku",
+  "repository": "https://github.com/smshuja/wiki-heroku",
   "logo": "https://raw.githubusercontent.com/Requarks/wiki/master/assets/images/logo.png",
   "keywords": ["node", "wiki", "heroku"],
   "image": "heroku/nodejs",
@@ -62,6 +62,14 @@
     "WIKI_ADMIN_EMAIL": {
       "description": "Email to use during root administrator account creation (default password: admin123)",
       "value": "marty@example.com"
+    },
+    "GOOGLE_CLIENT_ID": {
+      "description": "Google client ID",
+      "value": ""
+    },
+    "GOOGLE_CLIENT_SECRET": {
+      "description": "Google Client Secret",
+      "value": "m"
     },
     "WIKI_SESSION_KEY": {
       "description": "A long and unique random string used to encrypt sessions",
